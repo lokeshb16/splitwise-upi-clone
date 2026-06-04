@@ -7,7 +7,8 @@ st.set_page_config(page_title="Splitwise UPI Clone", layout="wide")
 st.title("🇮🇳 Splitwise Clone with Instant UPI Settlement")
 
 # Backend API URL
-BACKEND_URL = st.secrets.get("BACKEND_URL", "http://127.0.0.1:8000")
+# Pure code me sabse upar jahan BACKEND_URL hai, wahan ye link daalo:
+BACKEND_URL = "https://splitwise-backend-dufv.onrender.com"
 
 # 🛠️ SIDEBAR: Control Panel (Reset Button)
 with st.sidebar:
